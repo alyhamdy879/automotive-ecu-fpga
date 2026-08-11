@@ -23,7 +23,10 @@ Detailed design calculations, block diagrams, and state machine specifications a
 ### 4. 🅿️ Advanced Ultrasonic Parking Assist
 * **Proximity Calculation:** Reads echo timing signals from ultrasonic sensors to determine obstacle distance.
 * **Dynamic Alerting:** Triggers progressive visual and audible alert patterns based on distance zone boundaries.
-
+### 5. ⚙️ Multi-Mode Drive Controller
+* **Selectable Drive Maps:** Maps pedal/throttle input to target duty cycles across Eco, Normal, Sport, and Track modes via custom lookup tables (LUTs).
+* **Rate-Limited Throttle Transitions:** Implements synchronous slewing rate-limiters to prevent abrupt power spikes, ensuring smooth transitions and drivetrain protection.
+* **Traction Control Interfacing:** Exposes real-time duty cycle metrics directly for dynamic torque management integration.
 ---
 
 ## 📂 Folder Layout
