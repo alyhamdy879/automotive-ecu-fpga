@@ -1,3 +1,7 @@
+[![Language: Verilog](https://img.shields.io/badge/Language-Verilog%20%2F%20SystemVerilog-blue.svg)](https://en.wikipedia.org/wiki/Verilog)
+[![Toolchain: EDA/FPGA](https://img.shields.io/badge/Tools-Questasim%20%7C%20Vivado-orange.svg)]()
+[![Status: Complete](https://img.shields.io/badge/Status-Labs%20Completed-brightgreen.svg)]()
+
 # 🚗 FPGA Automotive Subsystems Control Suite
 
 A collection of synthesizable, hardware-level automotive control modules designed in **Verilog/SystemVerilog** for FPGA deployment. This suite implements safety-critical vehicle dynamics, engine protection, dynamic aerodynamics, and driver assistance logic alongside modular self-checking testbenches.
